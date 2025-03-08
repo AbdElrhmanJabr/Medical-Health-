@@ -48,7 +48,7 @@ export const registerPatient = async ({
       {
         identificationDocumentId: file?.$id ? file.$id : null,
         identificationDocumentUrl: file?.$id
-          ? `${"https://cloud.appwrite.io/v1"}/storage/buckets/${"676d311a003e256c0e43"}/files/${file.$id}/view??project=${"676d2ea700123e1208be"}`
+          ? `${"https://medical-health-abdelrhman-jabr.vercel.app/"}/storage/buckets/${"676d311a003e256c0e43"}/files/${file.$id}/view??project=${"676d2ea700123e1208be"}`
           : null,
         ...patient,
       }
